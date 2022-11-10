@@ -11,34 +11,10 @@ header {
   background-color: rgb(49, 122, 190);
 }
 
-#intro_section {
-  background-color: rgb(55, 182, 255);
-}
-
-.intro_tittle {
-  color: aliceblue;
-  font-size: 20px;
-  text-align: center;
-}
-
-.intro_description {
-  font-size: 15px;
-  font-family: "Courier New", Courier, monospace;
-  text-align: center;
-}
-
 .tittle {
   font-size: 100px;
   font-family: "Courier New", Courier, monospace;
   color: aliceblue;
-}
-
-.pres_section {
-  font-size: medium;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: rgb(29, 28, 87);
-  background-color: rgb(80, 111, 199);
-  text-align: center;
 }
 
 footer {
@@ -46,16 +22,55 @@ footer {
   position: sticky;
   bottom: 0%;
 }
-
-.fotter_social {
+footer .fotter_social {
   text-align: center;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 40px;
 }
-
-.fotter_copy {
+footer .fotter_copy {
   color: white;
+}
+
+.reboteOut {
+  font-family: Arial;
+  text-align: center;
+  font-size: 50px;
+}
+
+.reboteOut {
+  animation: reboteOut 1s infinite;
+}
+
+@keyframes reboteOut {
+  25% {
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+#intro_section {
+  background-color: rgb(55, 182, 255);
+}
+
+.section_images {
+  display: flex;
+  justify-content: center;
+}
+.section_images .image1 {
+  margin: 10px;
+}
+.section_images .image2 {
+  margin: 10px;
+}
+.section_images .image3 {
+  margin: 10px;
 }
 
 .form_tittle {
@@ -79,23 +94,10 @@ footer {
   width: 2000x;
   margin-left: 45rem;
 }
+
 .container_nos p {
   font-size: 20px;
   font-weight: 300;
-}
-
-.section_images {
-  display: flex;
-  justify-content: center;
-}
-.image1 {
-  margin: 10px;
-}
-.image2 {
-  margin: 10px;
-}
-.image3 {
-  margin: 10px;
 }
 
 .trat_conteiner1 {
@@ -112,33 +114,10 @@ footer {
   height: 50%;
   width: 50%;
 }
+
 .trat_image2 {
   height: 50%;
   width: 37%;
 }
 
-.reboteOut {
-  font-family: Arial;
-  text-align: center;
-  font-size: 50px;
-}
-
-.reboteOut {
-  animation: reboteOut 1s infinite;
-}
-
-@keyframes reboteOut {
-  25% {
-    transform: scale(0.9);
-  }
-
-  50% {
-    opacity: 1;
-    transform: scale(1.1);
-  }
-
-  100% {
-    transform: scale(0);
-    opacity: 0;
-  }
-}
+/*# sourceMappingURL=style.css.map */
