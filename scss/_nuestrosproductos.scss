@@ -1,14 +1,16 @@
+$margin_img: margin 10px;
+
 .section_images {
   display: flex;
   justify-content: center;
 
   .image1 {
-    margin: 10px;
+    margin: $margin_img;
   }
   .image2 {
-    margin: 10px;
+    margin: $margin_img;
   }
   .image3 {
-    margin: 10px;
+    margin: $margin_img;
   }
 }
