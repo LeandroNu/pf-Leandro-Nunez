@@ -62,15 +62,19 @@ footer .fotter_copy {
 .section_images {
   display: flex;
   justify-content: center;
+  margin: 20px;
+  padding: 50px;
 }
 .section_images .image1 {
-  margin: margin 10px;
+  margin: margin 20px;
 }
 .section_images .image2 {
-  margin: margin 10px;
+  margin: margin 20px;
+  padding-left: 80px;
 }
 .section_images .image3 {
-  margin: margin 10px;
+  margin: margin 20px;
+  padding-left: 80px;
 }
 
 .form_tittle {
@@ -102,12 +106,14 @@ footer .fotter_copy {
 
 .trat_conteiner1 {
   display: flex;
-  font-size: 30px;
+  font-size: 27px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .trat_conteiner2 {
   display: flex;
-  font-size: 30px;
+  font-size: 60px;
 }
 
 .trat_image1 {
@@ -117,7 +123,8 @@ footer .fotter_copy {
 
 .trat_image2 {
   height: 50%;
-  width: 37%;
+  width: 90%;
+  margin-right: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

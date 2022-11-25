@@ -1,16 +1,20 @@
-$margin_img: margin 10px;
+$margin_img: margin 20px;
 
 .section_images {
   display: flex;
   justify-content: center;
+  margin: 20px;
+  padding: 50px;
 
   .image1 {
     margin: $margin_img;
   }
   .image2 {
     margin: $margin_img;
+    padding-left: 80px;
   }
   .image3 {
     margin: $margin_img;
+    padding-left: 80px;
   }
 }
